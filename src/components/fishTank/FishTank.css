@@ -1,0 +1,9 @@
+.fish-tank{
+    background-color: rgba(0,0,150,0.3);
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width: 600px;
+    height: 400px;
+
+}
