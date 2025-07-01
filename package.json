@@ -1,0 +1,48 @@
+{
+  "name": "pecera",
+  "version": "0.0.0",
+  "repository": "https://github.com/CaroHernz/Pecera.git",
+  "author": "carohernz",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy-dev": "yarn build && aws s3 sync build/ s3:// --delete --profile caro",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.27.1",
+    "@eslint/js": "^9.30.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.1"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

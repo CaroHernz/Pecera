@@ -1,5 +1,13 @@
 # Pecera
 
+### Instalación
+
+`yarn install`
+
+### Iniciar en local
+
+`yarn start`
+
 ### Descripción
 
 Este aparentemente inofensivo programa puede cocinar un procesador con bastante facilidad. Sin embargo, todo sacrificio es poco, por la posibilidad de tener tu propia pecera virtual
